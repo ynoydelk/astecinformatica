@@ -1,0 +1,24 @@
+@charset "UTF-8";
+footer {
+    text-align: center;
+    padding: 0px;
+    background: linear-gradient(#fed9b7,#f07167);
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+
+#texto-footer{
+    padding-bottom: 10px;
+}
+
+#link-footer{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+#link-footer:hover{
+    font-size: 1.1em;
+    color: black;
+}

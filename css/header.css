@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+header {
+    background: linear-gradient(#f07167, #fed9b7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    transition: 0.2s;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: blue;
+    font-size: 1.1em;
+}
