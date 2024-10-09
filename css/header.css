@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header {
-    background: linear-gradient(#f07167,#fed9b7);
+    background: linear-gradient(#f07167, #fed9b7);
     color: white;
     padding: 10px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ header {
     height: 50px;
 }
 
-.company-name h1 {
+.nomedaempresa h1 {
     font-size: 24px;
     color: white;
 }
@@ -38,14 +38,14 @@ header {
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: #f5f9f8;
     padding: 10px 15px;
     font-weight: bold;
     border-radius: 5px;
 }
 
 .navbar ul li a:hover {
-    background-color: #00afb9;
+    background-color: #252330;
 }
 
 @media (max-width: 768px) {
