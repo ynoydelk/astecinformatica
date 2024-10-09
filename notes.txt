@@ -1,3 +1,5 @@
 #fed9b7
 #f07167
 #00afb9
+font-family: "Bebas Neue", sans-serif;
+font-family: "Rubik", sans-serif;

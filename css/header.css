@@ -1,32 +1,61 @@
 @charset "UTF-8";
 
 header {
-    background: linear-gradient(#f07167, #fed9b7);
+    background: linear-gradient(#f07167,#fed9b7);
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-#navbar {
-    width: 100%;
+.header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-#nav_list {
-    display: flex;
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.company-name h1 {
+    font-size: 24px;
+    color: white;
+}
+
+.navbar ul {
     list-style: none;
-    gap: 48px;
-    transition: 0.2s;
+    display: flex;
+    gap: 20px;
 }
 
-.nav-item a {
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
     text-decoration: none;
-    color: #1d1d1dad;
-    font-weight: 600;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
-.nav-item a:hover {
-    color: blue;
-    font-size: 1.1em;
+.navbar ul li a:hover {
+    background-color: #00afb9;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
