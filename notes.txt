@@ -1,5 +1,14 @@
-#fed9b7
-#f07167
-#00afb9
-font-family: "Bebas Neue", sans-serif;
-font-family: "Rubik", sans-serif;
+cores:
+#FBC2EB cores bonitinhas
+#78A3EB
+-------
+#F3E9E8 cores para as sections
+#96B9D9
+-------
+#dc6348 cores da Astec
+#d0a459
+-------
+Fonts:
+font-family: "Londrina Sketch", sans-serif;
+font-family: "Ubuntu", sans-serif; 300 até 700
+font-family: "Poppins", sans-serif; 100/700
