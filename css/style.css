@@ -51,7 +51,7 @@ body {
 #services-sections {
     margin: 15px;
     padding: 20px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), #feb6fc, #a360c5, #6c35a4);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), #96B9D9, #78A3EB);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
